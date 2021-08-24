@@ -1,0 +1,262 @@
+/* css part */
+.header{
+    background: #1F3240;
+}
+.logo img{
+    width: 140px;
+}
+.primary-menu{}
+.primary-menu ul{
+    list-style: none;
+    margin-bottom: 0;
+}
+.primary-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+    
+}
+.primary-menu ul li a {
+	color: #fff;
+	display: block;
+	padding: 0 25px;
+	font-size: 20px;
+	line-height: 79px;
+	text-decoration: none;
+    transition: .5s;
+}
+.primary-menu ul li a:hover{
+    background-color:#103b5a ;
+    color: #266592;
+}
+
+/* banner part */
+.banner{
+    background: url(./image/1.jpg) no-repeat  top center;
+    background-size: cover;
+    padding: 200px;
+}
+.banner h2{
+    background: rgba(56, 8, 230, 0.692);
+    width: 350px;
+    margin: auto;
+    padding: 7px 0;
+    border-radius: 20px;
+    transition: .5s;
+}
+.banner h2:hover{
+    background: red;
+    color: black;
+    transform:scale(1.2);
+ 
+}
+.banner h3{
+    font-size: 20px;
+    background: rgb(64, 224, 208);
+    width: 270px;
+    margin: auto;
+    padding: 10px 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    transition: .5s;
+}
+.banner h3:hover{
+    background: tomato;
+    color: turquoise;
+    transform: scale(1.2);
+}
+
+/* about part */
+.about{
+    background: #ddd;
+}
+/* service part */
+
+.service{
+    background: rgba(233, 225, 225, 0.534);
+}
+.service-itam img{
+    max-width: 100%;
+}
+.service-itaml img{
+   width:150px;
+   transition: .5s;
+}
+.service-itaml img:hover{
+    transform: rotate(50deg);
+}
+.service-itama img{
+    height:270px;
+    transition: .5s;
+}
+.service-itama img:hover{
+    transform:scale(1.2);
+}
+.service-itams img{
+    height: 270px;
+    transition: .5s;
+}
+.service-itams img:hover{
+    transform: translateY(20px);
+}
+.service-itam img{
+    transition: .5s;
+}
+.service-itam img:hover{
+   transform:rotate(360deg);
+}
+.ala a{
+    color: #fff;
+    background:#21A4F1 ;
+    display: inline-block;
+    padding: 7px 15px ;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+   
+}
+.ala a::after{
+    content: "";
+    height: 100%;
+    width:0;
+    background:red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    z-index: -1;
+    transition: .5s;
+
+}
+.ala a:hover::after{
+    width: 100%;
+}
+.service h2{
+    background:blueviolet;
+    width: 320px;
+    margin: auto;
+    margin-bottom: 50px;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50px 0 50px 0;
+    transition: .5s;
+}
+.service h2:hover{
+    color: coral;
+    transform: scale(1.2);
+    background: cyan;
+}
+
+/* product part */
+.product{
+    background:rgba(0, 0, 0, 0.246);
+}
+.product h2{
+    background: blue;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 10px;
+    color: white;
+    border-radius: 0 50px 0 50px;
+    transition: .5s;
+}
+.product h2:hover{
+    color: turquoise;
+    background: red;
+    transform: scale(1.2);
+}
+.product-itam{
+    color: rgb(64, 224, 208);
+    background:rgba(0, 0, 139, 0.808);
+    transition: .5s;
+}
+.product-itam span{
+    font-size: 30px;
+    background: darkblue;
+    color: #fff;
+    padding: 5px 15px;
+    display:block;
+} 
+.product-itam h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.product-itam:hover{
+    background:red;
+    transform: scale(1.2);
+}
+/* contact part */
+.contact{
+    background: #fafafa;
+}
+.contact h2{
+    text-align: center;
+    background: cornflowerblue;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 10px 0;
+    border-radius: 50px 0 50px 0;
+    color: cornsilk;
+    transition: .5s;
+}
+.contact h2:hover{
+    color: cyan;
+    background: darkorange;
+    transform: scale(1.2);
+}
+.a{
+    background: deepskyblue;
+    border: none;
+    font-size: 20px;
+    padding: 7px 20px;
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+    transition: .5s;
+}
+.a:hover{
+    background:red;
+    color: thistle;
+    transform: scale(1.2);
+}
+/* footer part */
+.footer{
+    background: #34495e;
+    margin-bottom: 50px;
+}
+.socal-menu{
+    list-style: none;
+    text-align: right;
+    margin-bottom: 0;
+    
+}
+.socal-menu li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.socal-menu li a{
+    color: white;
+    font-size: 30px;
+    display: block;
+    margin-right: 20px;
+    height: 60px;
+    line-height: 60px;
+    width: 60px;
+    margin: auto;
+    text-align: center;
+    border-radius: 50%;
+    transition: .5s;
+}
+.socal-menu li a:hover{
+    background: turquoise;
+    border-radius: 50%;
+    
+}
+.footer p{
+    color: white;
+    margin-top: 20px;
+}
